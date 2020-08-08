@@ -62,12 +62,40 @@ h2 {
 	padding-bottom: 15px;
 }
 
-.menu-entry {
-	background-color: grey;
+.back-to-top {
+	margin-top: 10px;
+	font-style: italic;
 }
 
+.back-to-top a {
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.menu-entry {
+	background-color: #DCDCDC;
+}
+
+p.title {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+p.content {
+	margin: 0px 10px 0px;
+	text-align: justify;
+}
+
+
 /********** Large and medium devices only **********/
+
 @media (min-width: 768px) {
+	.container {
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+
 	.navbar {
     	/*padding-top: 10px;*/
     	height: 70px;
@@ -85,15 +113,5 @@ h2 {
 	}
 }
 
-
-p.title {
-	text-align: center;
-	font-size: 1.7em;
-}
-
-p.content {
-	margin: 0px 10px 0px;
-	text-align: justify;
-}
 
 /** END HOME PAGE **/
