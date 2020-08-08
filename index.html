@@ -4,15 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>Solution Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -20,11 +12,10 @@
 
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
         <div class="navbar-header">
           <div class="navbar-brand">
             <h1>Food, LLC</h1>
-          </div>
+          </div> <!-- navbar-brand -->
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -32,61 +23,55 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+        </div> <!-- navbar-header -->
 
-          <div id="icon-menu-list" class="hidden-lg hidden-md hidden-sm">
+        <div id="icon-menu-list" class="hidden-lg hidden-md hidden-sm">
           <div id="collapsable-nav" class="collapse navbar-collapse">
 			<ul id="nav-list" class="nav navbar-nav navbar-right">
 				<li>
-					<a href="#"><br class="hidden-xs">Cheeken</a>
+					<a href="#p1"><br class="hidden-xs">Cheeken</a>
 				</li>
 				<li>
-					<a href="#"><br class="hidden-xs">Beef</a>
+					<a href="#p2"><br class="hidden-xs">Beef</a>
 				</li>
 				<li>
-					<a href="#"><br class="hidden-xs">Sushi</a>
+					<a href="#p3"><br class="hidden-xs">Sushi</a>
 				</li>
 			</ul><!-- #nav-list -->
-      	  </div>
-      	</div>
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-
+      	  </div> <!-- .collapse .navbar-collapse -->
         </div>
-      </div>
-
-    </nav>
-
+    </nav><!-- #header-nav -->
   </header>
 
-  <h2>Our Menu</h2>
+  <h2 class="text-center">Our Menu</h2>
 
-  <div class="row">
-  	<div class="col-md-12 col-sm-12 col-xs-12">
-  		<div class="menu-entry">
-  			<p class="title" id="p1">Chicken</p>
-  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  			</p>
-  		</div>
-  	</div> <!-- End of entry menu chicken -->
+  <div id="main-content" class="container">
+  	<div class="row">
+	  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	  		<div class="menu-entry">
+	  			<p class="title" id="p1">Chicken</p>
+	  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	  			</p>
+	  		</div>
+	  	</div> <!-- End of entry menu chicken -->
 
-  	<div class="col-md-12 col-sm-12 col-xs-12">
-  		<div class="menu-entry">
-  			<p class="title" id="p2">Beef</p>
-  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  			</p>
-  		</div>
-  	</div> <!-- End of entry menu beef -->
-  	
-  	<div class="col-md-12 col-sm-12 col-xs-12">
-  		<div class="menu-entry">
-  			<p class="title" id="p3">Sushi</p>
-  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  			</p>
-  		</div>
-  	</div> <!-- End of entry menu sushi --> 
-  </div> <!-- End of class row -->
-
+	  	<div class="col-md-12 col-sm-12 col-xs-12">
+	  		<div class="menu-entry">
+	  			<p class="title" id="p2">Beef</p>
+	  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	  			</p>
+	  		</div>
+	  	</div> <!-- End of entry menu beef -->
+	  	
+	  	<div class="col-md-12 col-sm-12 col-xs-12">
+	  		<div class="menu-entry">
+	  			<p class="title" id="p3">Sushi</p>
+	  			<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	  			</p>
+	  		</div>
+	  	</div> <!-- End of entry menu sushi --> 
+	  </div> <!-- End of class row -->
+	</div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
